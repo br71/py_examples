@@ -1,7 +1,7 @@
-import DeptFirstSearch
+import dept_first_searc
 import unittest
 
-test1 = DeptFirstSearch.Node("A")
+test1 = dept_first_searc.Node("A")
 test1.addChild("B").addChild("C").addChild("D")
 test1.children[0].addChild("E").addChild("F")
 test1.children[2].addChild("G").addChild("H")

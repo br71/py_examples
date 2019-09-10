@@ -1,4 +1,4 @@
-from BST_Create import Node
+from bst_create import Node
 import unittest
 
 t = Node(10)
@@ -12,7 +12,7 @@ t.insert(12)
 t.insert(1)  
 
 
-#print(t.inorderTraversal(t))  
+# print(t.inorderTraversal(t))
 a = [1, 2, 5, 5, 10, 12, 14, 15, 22]
 
 

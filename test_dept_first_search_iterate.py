@@ -1,9 +1,9 @@
-import DeptFirstSearchIterate
+import dept_first_search_iterate
 import unittest
 
 vertices = {1: [2, 3], 2: [4, 5], 3: [5], 4: [6], 5: [6], 6: [7], 7: []}
 
-test = DeptFirstSearchIterate.dfs_iterative(vertices, 1)
+test = dept_first_search_iterate.dfs_iterative(vertices, 1)
 
 
 class Test(unittest.TestCase):

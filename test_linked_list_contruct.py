@@ -1,4 +1,4 @@
-import LinkedListContruct
+import linked_list_contruct
 import unittest
 
 
@@ -34,7 +34,7 @@ def remove_nodes(linkedlist, nodes):
 
 class TestProgram(unittest.TestCase):
     def test_case_1(self):
-        linkedlist = LinkedListContruct.DoubleLinkedList()
+        linkedlist = linked_list_contruct.DoubleLinkedList()
         first = Node(1)
         second = Node(2)
         third = Node(3)

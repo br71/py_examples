@@ -1,6 +1,6 @@
-from BinarySearch import Solution
-import BinarySearch
+from binary_search import Solution
 import unittest.test.test_program
+
 
 class TestProgram(unittest.TestCase):
 
@@ -19,8 +19,6 @@ class TestProgram(unittest.TestCase):
     def test_1_5(self):
         self.assertEqual(BinarySearch.binarySearchRecurse([0,1,21,33,45,45,61,71,72,73],70),-1)
 
-
-    
     def test_2_1(self):
         self.assertEqual(Solution().binarySearchIterate([0,1,21,33,45,45,61,71,72,73],33),3)
 
@@ -37,7 +35,5 @@ class TestProgram(unittest.TestCase):
         self.assertEqual(Solution().binarySearchIterate([0,1,21,33,45,45,61,71,72,73],70),-1)
 
 
-
-    
 if __name__=="__main__":
     unittest.main()
