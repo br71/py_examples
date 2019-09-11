@@ -1,4 +1,5 @@
-from typing import List, Dict
+from typing import List
+
 
 class Solution:
     # O(log(n)) - time, O(1) - space
