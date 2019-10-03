@@ -26,7 +26,7 @@ def merge_sort_arrays(left_half, right_half):
     while i < len(left_half):
         sorted_array[k] = left_half[i]
         j += 1
-        k+= 1
+        k += 1
     while j< len(right_half):
         sorted_array[k] = right_half[j]
         j += 1
