@@ -7,8 +7,11 @@ class Node:
         self.children.append(Node(name))
         return self
 
+    # e - edges (a - b connector ...), v - verices (nodes, a,b ...)
     # O(v+e) time | O(v) space
     def breadthFirstSearch(self, array):
+        
+        # Inilitialize queue with first node
         queue = [self]
         while len(queue) > 0:
             currrent = queue.pop(0)
